@@ -11,7 +11,7 @@
 
 素晴らしいモデルコンテキストプロトコル（MCP）サーバーの厳選リスト。
 
-* [MCPとは何ですか？](#MCPとは何ですか？)
+* [MCPとは何ですか？](#mcpとは何ですか)
 * [クライアント](#クライアント)
 * [チュートリアル](#チュートリアル)
 * [コミュニティ](#コミュニティ)
@@ -100,7 +100,6 @@
 * 🔒 - [セキュリティ](#security)
 * 🌐 - [ソーシャルメディア](#social-media)
 * 🏃 - [スポーツ](#sports)
-* 🎧 - [サポート・サービス管理](#support-and-service-management)
 * 🌎 - [翻訳サービス](#translation-services)
 * 🎧 - [テキスト読み上げ](#text-to-speech)
 * 🚆 - [旅行と交通](#travel-and-transportation)
@@ -352,6 +351,9 @@ aliyun/alibabacloud-tablestore-mcp-server ☕ 🐍 ☁️ - 阿里云表格存�
 - [kukapay/modbus-mcp](https://github.com/kukapay/modbus-mcp) 🐍 📟 - 産業用Modbusデータを標準化し、コンテキスト化するMCPサーバー。
 - [kukapay/opcua-mcp](https://github.com/kukapay/opcua-mcp) 🐍 📟 - OPC UA対応の産業システムに接続するMCPサーバー。
 - [yoelbassin/gnuradioMCP](https://github.com/yoelbassin/gnuradioMCP) 🐍 📟 🏠 - LLMがRF `.grc`フローチャートを自律的に作成・修正できるGNU Radio用MCPサーバー。
+- [adancurusul/embedded-debugger-mcp](https://github.com/adancurusul/embedded-debugger-mcp) 🦀 📟 - probe-rsを使用した組み込みデバッグ用のモデルコンテキストプロトコルサーバー - J-Link、ST-Link等によるARM Cortex-M、RISC-Vデバッグをサポート
+- [adancurusul/serial-mcp-server](https://github.com/adancurusul/serial-mcp-server) 🦀 📟 - シリアルポート通信用の包括的なMCPサーバー
+- [stack-chan/stack-chan](https://github.com/stack-chan/stack-chan) 📇 📟 - JavaScriptで動作するM5Stack組み込みｽｰﾊﾟｰｶﾜｲｲロボット。AI制御による対話と感情表現のためのMCPサーバー機能を搭載。
 
 ### 💰 <a name="finance--fintech"></a>金融・フィンテック
 
@@ -528,14 +530,6 @@ aliyun/alibabacloud-tablestore-mcp-server ☕ 🐍 ☁️ - 阿里云表格存�
 - [zinja-coder/jadx-ai-mcp](https://github.com/zinja-coder/jadx-ai-mcp) ☕ 🏠 - Model Context Protocol（MCP）と直接統合し、ClaudeなどのLLMでライブリバースエンジニアリング支援を提供するJADXデコンパイラー用プラグインとMCPサーバー
 - [zinja-coder/apktool-mcp-server](https://github.com/zinja-coder/apktool-mcp-server) 🐍 🏠 - APK ToolのMCPサーバー。Android APKのリバースエンジニアリング自動化を提供
 - [quantakrypto/pqc-tools](https://github.com/quantakrypto/pqc-tools) [![quantakrypto/pqc-tools MCP server](https://glama.ai/mcp/servers/quantakrypto/pqc-tools/badges/score.svg)](https://glama.ai/mcp/servers/quantakrypto/pqc-tools) 📇 🏠 ☁️ - AIコーディングエージェント向けのポスト量子対応ツール。量子に脆弱な暗号（RSA/ECDH/ECDSA/DH）をコードから検出し、harvest-now-decrypt-later（今収集して後で復号）のリスクを説明し、NIST ML-KEM/ML-DSA/SLH-DSA（およびハイブリッド）への移行ガイダンスを提供、修正の検証と依存関係のチェックを行います。内容ベースの助言的ツールのみ。ローカル（`npx @quantakrypto/mcp`）または[mcp.quantakrypto.com](https://mcp.quantakrypto.com)のホスト型OAuthエンドポイントで実行できます。
-
-### 📟 <a name="embedded-system"></a>組み込みシステム
-
-組み込みデバイスでの作業のためのドキュメントとショートカットへのアクセスを提供します。
-
-- [adancurusul/embedded-debugger-mcp](https://github.com/adancurusul/embedded-debugger-mcp) 🦀 📟 - probe-rsを使用した組み込みデバッグ用のモデルコンテキストプロトコルサーバー - J-Link、ST-Link等によるARM Cortex-M、RISC-Vデバッグをサポート
-- [adancurusul/serial-mcp-server](https://github.com/adancurusul/serial-mcp-server) 🦀 📟 - シリアルポート通信用の包括的なMCPサーバー
-- [stack-chan/stack-chan](https://github.com/stack-chan/stack-chan) 📇 📟 - JavaScriptで動作するM5Stack組み込みｽｰﾊﾟｰｶﾜｲｲロボット。AI制御による対話と感情表現のためのMCPサーバー機能を搭載。
 
 ### 🌎 <a name="translation-services"></a>翻訳サービス
 

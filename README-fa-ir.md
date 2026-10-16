@@ -23,28 +23,28 @@
 * [چارچوب‌ها](#frameworks)
 * [نکات و ترفندها](#tips-and-tricks)
 
-## MCP چیست؟
+## <a name="what-is-mcp"></a>MCP چیست؟
 
 [MCP](https://modelcontextprotocol.io/) یک پروتکل باز است که به مدل‌های هوش مصنوعی امکان تعامل امن با منابع محلی و راه دور را از طریق پیاده‌سازی‌های سرور استاندارد شده می‌دهد. این لیست بر روی سرورهای MCP آماده برای تولید و آزمایشی تمرکز دارد که قابلیت‌های هوش مصنوعی را از طریق دسترسی به فایل، اتصالات پایگاه داده، یکپارچه‌سازی API و سایر خدمات متنی گسترش می‌دهند.
 
-## کلاینت‌ها
+## <a name="clients"></a>کلاینت‌ها
 
 [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients/) و [glama.ai/mcp/clients](https://glama.ai/mcp/clients) را بررسی کنید.
 
 > [!TIP]
 > [Glama Chat](https://glama.ai/chat) یک کلاینت هوش مصنوعی چندوجهی با پشتیبانی از MCP و [دروازه هوش مصنوعی](https://glama.ai/gateway) است.
 
-## آموزش‌ها
+## <a name="tutorials"></a>آموزش‌ها
 
 * [شروع سریع پروتکل زمینه مدل (MCP)](https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart)
 * [تنظیم برنامه دسکتاپ Claude برای استفاده از پایگاه داده SQLite](https://youtu.be/wxCCzo9dGj0)
 
-## جامعه
+## <a name="community"></a>جامعه
 
 * [r/mcp Reddit](https://www.reddit.com/r/mcp)
 * [سرور دیسکورد](https://glama.ai/mcp/discord)
 
-## راهنما
+## <a name="legend"></a>راهنما
 
 * 🎖️ – پیاده‌سازی رسمی
 * زبان برنامه‌نویسی
@@ -71,7 +71,7 @@
 > * از محلی استفاده کنید زمانی که سرور MCP با یک نرم‌افزار نصب شده محلی صحبت می‌کند، به عنوان مثال کنترل مرورگر Chrome را به دست می‌گیرد.
 > * از ابری استفاده کنید زمانی که سرور MCP با APIهای راه دور صحبت می‌کند، به عنوان مثال API هواشناسی.
 
-## پیاده‌سازی‌های سرور
+## <a name="server-implementations"></a>پیاده‌سازی‌های سرور
 
 > [!NOTE]
 > ما اکنون یک [دایرکتوری مبتنی بر وب](https://glama.ai/mcp/servers) داریم که با مخزن همگام‌سازی شده است.
@@ -279,7 +279,7 @@
 - [juehang/vscode-mcp-server](https://github.com/juehang/vscode-mcp-server) 📇 🏠 - یک سرور MCP که به هوش مصنوعی مانند Claude اجازه می‌دهد از ساختار دایرکتوری در یک فضای کاری VS Code بخواند، مشکلاتی که توسط linter(s) و سرور زبان شناسایی شده‌اند را ببیند، فایل‌های کد را بخواند و ویرایش کند.
 - [micl2e2/code-to-tree](https://github.com/micl2e2/code-to-tree) 🌊 🏠 📟 🐧 🪟 🍎 - یک سرور MCP تک-باینری که کد منبع را بدون توجه به زبان به AST تبدیل می‌کند.
 - [oraios/serena](https://github.com/oraios/serena) 🐍 🏠 - یک عامل کدنویسی کاملاً مجهز که با استفاده از سرورهای زبان به عملیات کد نمادین متکی است.
-- [pdavis68/RepoMapper](https://github.com.mcas.ms/pdavis68/RepoMapper) 🐧 🪟 🍎 - یک سرور MCP (و ابزار خط فرمان) برای ارائه یک نقشه پویا از فایل‌های مرتبط با چت از مخزن با پروتوتایپ‌های تابع آنها و فایل‌های مرتبط به ترتیب اهمیت. بر اساس عملکرد "Repo Map" در Aider.chat
+- [pdavis68/RepoMapper](https://github.com/pdavis68/RepoMapper) 🐧 🪟 🍎 - یک سرور MCP (و ابزار خط فرمان) برای ارائه یک نقشه پویا از فایل‌های مرتبط با چت از مخزن با پروتوتایپ‌های تابع آنها و فایل‌های مرتبط به ترتیب اهمیت. بر اساس عملکرد "Repo Map" در Aider.chat
 - [rinadelph/Agent-MCP](https://github.com/rinadelph/Agent-MCP) 🐍 🏠 - چارچوبی برای ایجاد سیستم‌های چند-عاملی با استفاده از MCP برای همکاری هماهنگ هوش مصنوعی، با مدیریت وظایف، زمینه مشترک و قابلیت‌های RAG.
 - [stippi/code-assistant](https://github.com/stippi/code-assistant) 🦀 🏠 - عامل کدنویسی با ابزارهای پایه list، read، replace_in_file، write، execute_command و جستجوی وب. از چندین پروژه به طور همزمان پشتیبانی می‌کند.
 - [tiianhk/MaxMSP-MCP-Server](https://github.com/tiianhk/MaxMSP-MCP-Server) 🐍 🏠 🎵 🎥 - یک عامل کدنویسی برای Max (Max/MSP/Jitter)، که یک زبان برنامه‌نویسی بصری برای موسیقی و چندرسانه‌ای است.
@@ -538,13 +538,13 @@
 - [kadykov/mcp-openapi-schema-explorer](https://github.com/kadykov/mcp-openapi-schema-explorer) 📇 ☁️ 🏠 - دسترسی بهینه از نظر توکن به مشخصات OpenAPI/Swagger از طریق منابع MCP.
 - [Kapeli/dash-mcp-server](https://github.com/Kapeli/dash-mcp-server) [![Kapeli/dash-mcp-server MCP server](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/@Kapeli/dash-mcp-server) 🐍 🏠 🍎 - سرور MCP برای [Dash](https://kapeli.com/dash)، مرورگر مستندات API در macOS. جستجوی فوری در بیش از ۲۰۰ مجموعه مستندات.
 - [lamemind/mcp-server-multiverse](https://github.com/lamemind/mcp-server-multiverse) 📇 🏠 🛠️ - یک سرور میان‌افزار که به چندین نمونه ایزوله از یک سرور MCP اجازه می‌دهد تا به طور مستقل با فضاهای نام و پیکربندی‌های منحصر به فرد همزیستی کنند.
-- [langfuse/mcp-server-langfuse](https://github.com/langfuse/mcp-server-langfuse) 🐍 🏠 - سرور MCP برای دسترسی و مدیریت پرامپت‌های برنامه LLM ایجاد شده با مدیریت پرامپت [Langfuse]([https://langfuse.com/](https://langfuse.com/docs/prompts/get-started)).
+- [langfuse/mcp-server-langfuse](https://github.com/langfuse/mcp-server-langfuse) 🐍 🏠 - سرور MCP برای دسترسی و مدیریت پرامپت‌های برنامه LLM ایجاد شده با مدیریت پرامپت [Langfuse](https://langfuse.com/docs/prompts/get-started).
 - [linw1995/nvim-mcp](https://github.com/linw1995/nvim-mcp) 🦀 🏠 🍎 🪟 🐧  - یک سرور MCP برای تعامل با Neovim
 - [logisky/logisheets-mcp](https://github.com/logisky/logisheets-mcp) [![logisky/logisheets-mcp MCP server](https://glama.ai/mcp/servers/logisky/logisheets-mcp/badges/score.svg)](https://glama.ai/mcp/servers/logisky/logisheets-mcp) 🎖️ 📇 🏠 🍎 🪟 🐧 - یک موتور صفحه‌گسترده واقعی و سازگار با اکسل برای عامل‌ها، بر پایه [LogiSheets](https://github.com/logisky/LogiSheets) (نوشته‌شده با Rust و اجراشده با WASM). فرمول‌های قطعی که مدل لازم نیست خودش حساب کند، بلوک‌های نام‌دار که به‌جای مختصات با (بلوک، کلید، فیلد) آدرس‌دهی می‌شوند و با درج سطر خراب نمی‌شوند، قواعد فرمول در سطح کل ستون، پویش دسته‌ای سناریوها و حل معکوس در یک فراخوان، و در پایان یک `.xlsx` واقعی. به‌صورت محلی اجرا می‌شود و هیچ سوکتی باز نمی‌کند. `npx logisheets-mcp`
 - [lpigeon/ros-mcp-server](https://github.com/lpigeon/ros-mcp-server) 🐍 🏠 🍎 🪟 🐧 - سرور ROS MCP از کنترل ربات با تبدیل دستورات زبان طبیعی صادر شده توسط کاربر به دستورات کنترل ROS یا ROS2 پشتیبانی می‌کند.
 - [lpigeon/unitree-go2-mcp-server](https://github.com/lpigeon/unitree-go2-mcp-server) 🐍 🏠 🐧 - سرور Unitree Go2 MCP یک سرور ساخته شده بر روی MCP است که به کاربران امکان می‌دهد ربات Unitree Go2 را با استفاده از دستورات زبان طبیعی که توسط یک LLM تفسیر می‌شود، کنترل کنند.
 - [ukkit/memcord](https://github.com/ukkit/memcord) 🐍 🏠 🐧 🍎 - یک سرور MCP که تاریخچه چت شما را سازماندهی و قابل جستجو نگه می‌دارد—با خلاصه‌های مبتنی بر هوش مصنوعی، حافظه امن و کنترل کامل.
-- [mattjegan/swarmia-mcp](https://github.com/mattjegan/swarmia-mcp) 🐍 🏠 🍎 🐧 - سرور MCP فقط-خواندنی برای کمک به جمع‌آوری معیارها از [Swarmia](swarmia.com) برای گزارش‌دهی سریع.
+- [mattjegan/swarmia-mcp](https://github.com/mattjegan/swarmia-mcp) 🐍 🏠 🍎 🐧 - سرور MCP فقط-خواندنی برای کمک به جمع‌آوری معیارها از [Swarmia](https://swarmia.com) برای گزارش‌دهی سریع.
 - [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) 📇 🏠 🐧 🍎 - سرور MCP برای اتوماسیون، توسعه و استخراج داده از برنامه‌ها و دستگاه‌های Android/iOS. شبیه‌ساز/امولاتور/دستگاه‌های فیزیکی مانند iPhone، Google Pixel، Samsung پشتیبانی می‌شوند.
 - [mrexodia/user-feedback-mcp](https://github.com/mrexodia/user-feedback-mcp) 🐍 🏠 - سرور MCP ساده برای فعال کردن یک گردش کار انسان-در-حلقه در ابزارهایی مانند Cline و Cursor.
 - [mumez/pharo-smalltalk-interop-mcp-server](https://github.com/mumez/pharo-smalltalk-interop-mcp-server) 🐍 🏠 - یکپارچه‌سازی با Pharo Smalltalk که ارزیابی کد، بازرسی کلاس/متد، مدیریت بسته، اجرای تست و نصب پروژه را برای توسعه تعاملی با ایمیج‌های Pharo امکان‌پذیر می‌کند.
@@ -1228,7 +1228,7 @@
 - [imprvhub/mcp-claude-spotify](https://github.com/imprvhub/mcp-claude-spotify) 📇 ☁️ 🏠 - یکپارچه‌سازی که به Claude Desktop امکان تعامل با Spotify را با استفاده از Model Context Protocol (MCP) می‌دهد.
 - [nanana-app/mcp-server-nano-banana](https://github.com/nanana-app/mcp-server-nano-banana) 🐍 🏠 🍎 🪟 🐧 - تولید تصویر هوش مصنوعی با استفاده از مدل nano banana گوگل Gemini.
 
-## چارچوب‌ها
+## <a name="frameworks"></a>چارچوب‌ها
 
 > [!NOTE]
 > چارچوب‌ها، ابزارها و سایر ابزارهای توسعه‌دهنده بیشتر در https://github.com/punkpeye/awesome-mcp-devtools در دسترس هستند
@@ -1236,7 +1236,7 @@
 - [FastMCP](https://github.com/jlowin/fastmcp) 🐍 - یک چارچوب سطح بالا برای ساخت سرورهای MCP در Python
 - [FastMCP](https://github.com/punkpeye/fastmcp) 📇 - یک چارچوب سطح بالا برای ساخت سرورهای MCP در TypeScript
 
-## نکات و ترفندها
+## <a name="tips-and-tricks"></a>نکات و ترفندها
 
 ### پرامپت رسمی برای اطلاع‌رسانی به LLMها در مورد نحوه استفاده از MCP
 
